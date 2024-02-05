@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website -About</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/app.css') }}"/>
 </head>
 <body>
     <h1> Khadeem Lattibeaudiere </h1>
     <p>I am  21 year old male in my third year in University;<br> I am majoring in computer Science</p>
-    
+
+    <p>My off guard photo is below</p>
+    <img src="{{ url_for('static', filename='Main.jpg') }}">
 </body>
 </html>
